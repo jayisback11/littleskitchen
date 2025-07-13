@@ -49,7 +49,7 @@ const TheLittlesKitchen = () => {
             marginBottom: "0.5rem",
           }}
         >
-          The Littles Kitchen
+          Welcome to The Littles Kitchen
         </h1>
         <p
           style={{
