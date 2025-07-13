@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Chicken Adobo",
+    "description": "A classic Filipino dish braised in vinegar, soy sauce, and garlic.",
+    "image": "https://www.seriouseats.com/thmb/ZU-il8yH7iNg8pZUqCCrkdjUtfY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg"
+  },
+  {
+    "name": "Pancit Bihon",
+    "description": "Stir-fried rice noodles with vegetables and sliced meat.",
+    "image": "https://satyamskitchen.com/wp-content/uploads/2021/07/website-2-e1625241096824.jpg"
+  },
+  {
+    "name": "Lechon Kawali",
+    "description": "Crispy deep-fried pork belly served with lechon sauce.",
+    "image": "https://www.allrecipes.com/thmb/w8q3G82yc3BIlEJDCraSMqRVyN4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/RM-237899-FilippinoLechonKawali-ddmfs-3x4-6354-acd2f1895a5c4c8a92ad4d33d48bc837.jpg"
+  },
+  {
+    "name": "Bicol Express",
+    "description": "Bicol Express is a rich and spicy Filipino dish made with pork, coconut milk, shrimp paste, and chili peppers for a bold, savory kick.",
+    "image": "https://i0.wp.com/www.Iankewks.com/wp-content/uploads/2024/04/IMG_8859.jpg?resize=800%2C1054&ssl=1"
+  }
+]
