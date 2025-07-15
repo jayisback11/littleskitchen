@@ -4,7 +4,7 @@ import "./App.css";
 import { FaFacebookF } from "react-icons/fa";
 import { SiDoordash } from "react-icons/si";
 import OurMenu from "./components/OurMenu";
-import LittleKitchenLogo from "./assets/images/littlekitchenLogo.png"
+import LittleKitchenLogo from "./assets/images/littlekitchenLogo.png";
 
 const TheLittlesKitchen = () => {
   const [navCollapsed, setNavCollapsed] = useState(true);
@@ -24,11 +24,11 @@ const TheLittlesKitchen = () => {
       <header
         style={{
           backgroundImage:
-            "url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80)",
+            "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "70vh",
-          paddingTop:"65px",
+          paddingTop: "65px",
           position: "relative",
           color: "white",
           display: "flex",
