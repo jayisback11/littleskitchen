@@ -35,7 +35,7 @@ const OurMenu = () => {
   });
 
   return (
-    <section id="menu" className="container py-5">
+    <section id="menu" className="container py-2">
       <h2
         style={{
           borderBottom: "2px solid #4a3c31",

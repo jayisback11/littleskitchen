@@ -239,7 +239,7 @@ const TheLittlesKitchen = () => {
       </nav>
 
       {/* Sections */}
-      <main style={{ paddingTop: "80px" }}>
+      <main >
         {/* About */}
         <section
           id="about"
