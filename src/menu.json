@@ -1,22 +1,212 @@
 [
   {
-    "name": "Chicken Adobo",
-    "description": "A classic Filipino dish braised in vinegar, soy sauce, and garlic.",
-    "image": "https://www.seriouseats.com/thmb/ZU-il8yH7iNg8pZUqCCrkdjUtfY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-19-12ce105a2e1a44dfb1e2673775118064.jpg"
+    "name": "Batchoy",
+    "description": "A hearty, flavorful Filipino noodle soup with meat in rich, savory broth top with pork cracklings, egg; garnish with green onion and fried garlic.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/batchoy-204239/img_2p2jSkvUz9P1MGsbVyII3kiT59c.jpg",
+    "category": "soups"
+  },
+  {
+    "name": "Pork Sinigang",
+    "description": "Savory soup with tender pork belly and ribs, vegetables in tangy tamarind broth.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pork-sinigang-pork-sour-soup-204246/img_2p2jU1ex3BbX1GxLGXZmN6wEcgd.jpg",
+    "category": "soups"
+  },
+  {
+    "name": "Nilagang Baka",
+    "description": "Comforting beef soup with potatoes, cabbage, carrots, bok choy, and corn.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/nilagang-baka-beef-soup-204248/img_2p2jYfwJYwcNE4MR0YriMJzYjHp.jpg",
+    "category": "soups"
   },
   {
     "name": "Pancit Bihon",
-    "description": "Stir-fried rice noodles with vegetables and sliced meat.",
-    "image": "https://satyamskitchen.com/wp-content/uploads/2021/07/website-2-e1625241096824.jpg"
+    "description": "Stir-fried rice noodles with vegetables and meat, garnished with green onions.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pancit-bihon-204251/img_2p2jbx0zKkWExkjnNwKVTA10IsW.jpg",
+    "category": "noodles"
   },
   {
-    "name": "Lechon Kawali",
-    "description": "Crispy deep-fried pork belly served with lechon sauce.",
-    "image": "https://www.allrecipes.com/thmb/w8q3G82yc3BIlEJDCraSMqRVyN4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/RM-237899-FilippinoLechonKawali-ddmfs-3x4-6354-acd2f1895a5c4c8a92ad4d33d48bc837.jpg"
+    "name": "Pork Belly Inihaw 4 pcs",
+    "description": "Grilled pork belly marinated in soy sauce, calamansi, garlic, and sugar.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pork-belly-inihaw-4-pcs-204257/img_2p2jgi5HAPO3NZUrxnIoGADgSM8.jpg",
+    "category": "grilled specials"
+  },
+  {
+    "name": "Chicken Inasal 1 Pc",
+    "description": "Grilled chicken marinated in lemongrass, garlic, ginger, and soy sauce.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/chicken-inasal-1-pc-204259/img_2p2jjU8igISggDWpMNb6LTjyyAw.jpg",
+    "category": "grilled specials"
+  },
+  {
+    "name": "Lumpia 6pcs",
+    "description": "Crispy spring rolls filled with pork and vegetables served with sweet chili sauce.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/lumpia-10-00-6-pcs-204260/img_2p2jmJKylrG19Dr8fBN4oY83Ft7.jpg",
+    "category": "appetizers"
+  },
+  {
+    "name": "Pork BBQ Skewer",
+    "description": "Grilled pork skewers with a sweet, smoky marinade.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pork-bbq-skewers-1-stick-204262/img_2p2joifHWGr3iFKiA3d9fk0HS4K.jpg",
+    "category": "appetizers"
+  },
+  {
+    "name": "Pork Sisig",
+    "description": "Chopped pork belly seasoned with lemon juice, soy sauce, and chili.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pork-sisig-204263/img_2p2jrGv6vps1k1Zzq5Y0DTd1N4H.jpg",
+    "category": "main entrees"
   },
   {
     "name": "Bicol Express",
-    "description": "Bicol Express is a rich and spicy Filipino dish made with pork, coconut milk, shrimp paste, and chili peppers for a bold, savory kick.",
-    "image": "https://i0.wp.com/www.Iankewks.com/wp-content/uploads/2024/04/IMG_8859.jpg?resize=800%2C1054&ssl=1"
+    "description": "Spicy pork stew in coconut milk with shrimp paste and chili peppers.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/bicol-express-204264/img_2p2jssoAUfwD76amt5W5HIfaOph.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Karekare",
+    "description": "Beef stew in peanut sauce with vegetables, served with shrimp paste.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/karekare-204266/img_2p2jv10XzBSA7Fl97NKMgIgmsLd.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Pork Adobo",
+    "description": "Pork simmered in soy sauce, vinegar, garlic, and spices.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/adobo-204267/img_2p2jyAKnjisOIMhBy4QFmugU2x8.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Chop Suey",
+    "description": "Stir-fried mixed vegetables with pork and quail eggs.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/chop-suey-204270/img_2p2jzjRPPUUrmtpGsJhhn8a60LE.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Sweet & Sour Fish",
+    "description": "Crispy fish in sweet and sour sauce with vegetables and pineapple.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/sweet-sour-fish-204271/img_2p2k25Esmea61Ao5GsLUGcb3ADZ.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Menudo",
+    "description": "Stewed pork and liver in tomato sauce with vegetables and raisins.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/menudo-204272/img_2p2k4bbP0W8aw7z7eDLGMHUK5af.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Dinuguan/Choco Meat Stew",
+    "description": "Savory pork stew with blood, chili, garlic, ginger, and vinegar.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/dinuguan-choco-meat-stew-204273/img_2p2k6WTpxGicMHE4FdRaDolKEjq.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Chicken Adobo",
+    "description": "Chicken simmered in soy sauce, vinegar, garlic, and spices.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/chicken-adobo-250433/img_2vVjwFGhG9kMWcFVUMAFLVk9rjB.jpg",
+    "category": "main entrees"
+  },
+  {
+    "name": "Combo Meal 1 Karekare/Chicken Adobo",
+    "description": "Karekare and Chicken Adobo with rice.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/combo-meal-1-204274/img_2p2k9r2IaQMWhuDvU0z9d0R53Rc.jpg",
+    "category": "combos"
+  },
+  {
+    "name": "Combo Meal 2 Pork Adobo/BBQ",
+    "description": "Pork Adobo and BBQ with rice.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/combo-meal-2-204287/img_2p2kIgcGZlvw1hPBWElr58NgRsZ.jpg",
+    "category": "combos"
+  },
+  {
+    "name": "Combo Meal 3 Pansit/BBQ",
+    "description": "Pancit and BBQ with rice.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/combo-meal-3-204291/img_2p2kKDNUiqmJWlTwc3zEJwZj2rW.jpg",
+    "category": "combos"
+  },
+  {
+    "name": "Meal Plate 1 Karekare",
+    "description": "Karekare with rice.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/plate-meal-1-204295/img_2p2kLwluHzuk9tBEyCj54rSmom6.jpg",
+    "category": "combos"
+  },
+  {
+    "name": "Meal Plate 2 Chicken Adobo",
+    "description": "Chicken Adobo with rice.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/plate-meal-2-204296/img_2p2kRhfBWn7pOxrZeq8ACNV9Nwr.jpg",
+    "category": "combos"
+  },
+  {
+    "name": "Kaldereta",
+    "description": "Tomato-based beef or goat stew with potatoes, carrots, and bell peppers.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/kaldereta-204300/img_2p2kYt0A6wVTw5GmLwV9f84fGk1.jpg",
+    "category": "weekend specials"
+  },
+  {
+    "name": "Pancit Bihon Party Tray",
+    "description": "Large tray of Pancit Bihon for parties.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/pancit-bihon-204303/img_2p2kpfJ1t721yG6uqeSjEEiUtm1.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Bicol Express Party Tray",
+    "description": "Large tray of spicy Bicol Express for gatherings.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/bicol-express-204308/img_2p2ksKgweHwftYgBe6jcTADeaiX.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Karekare Party Tray",
+    "description": "Large tray of Kare-Kare with bagoong.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/karekare-204309/img_2p2ktaNFXnPpotq8kmUajwTyT6b.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Adobo Chicken Party Tray",
+    "description": "Large tray of Chicken Adobo.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/adobo-chicken-204311/img_2p2kwUoXBuWm91kEmdTIBeQae0t.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Adobo Pork Party Tray",
+    "description": "Large tray of Pork Adobo.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/adobo-pork-204313/img_2p2kyeOqYwhgDoqOFCatKNIV1Ss.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Chop Suey Party Tray",
+    "description": "Large tray of stir-fried mixed vegetables with pork.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/chop-suey-204315/img_2p2l0o7TEYxYoZfrHxEb8SfbzEj.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Menudo Party Tray",
+    "description": "Large tray of pork and liver stew.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/menudo-204317/img_2p2l3J9sRw9Hxsjlx7S0Yxs9780.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Dinuguan Party Tray",
+    "description": "Large tray of Dinuguan stew.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/dinuguan-choco-meat-stew-204318/img_2p2l5CNEIXlcRFGmIotClJxWmWM.jpg",
+    "category": "party trays"
+  },
+  {
+    "name": "Coke",
+    "description": "Canned soda",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/coke-204319/img_2p2lAeHHD2FLF1MOtArT6obPRZC.jpg",
+    "category": "drinks"
+  },
+  {
+    "name": "Sprite",
+    "description": "Canned soda",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/sprite-204320/img_2p2lBesny6UsluLO1bwyA7F9qRj.jpg",
+    "category": "drinks"
+  },
+  {
+    "name": "Bottled Water",
+    "description": "Bottled water, brands may vary",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/bottled-water-204321/img_2p2lEeaKgIZzkAh9Gge3dfB32ry.jpg",
+    "category": "drinks"
+  },
+  {
+    "name": "Puto Cheese",
+    "description": "A dozen steamed rice cakes with melted cheese.",
+    "image": "https://img.getrevi.com/v1/webp/size:medium/https://zyrl-tagging-v2.s3.amazonaws.com/little-kitchen-1551/puto-cheese-204322/img_2p2kiHNCROKSjEziWUXIyiIEE1s.jpg",
+    "category": "desserts"
   }
 ]

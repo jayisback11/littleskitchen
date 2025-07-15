@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { FaFacebookF } from "react-icons/fa";
 import { SiDoordash } from "react-icons/si";
-import menuData from "./menu.json";
+import OurMenu from "./components/OurMenu";
+import LittleKitchenLogo from "./assets/images/littlekitchenLogo.png"
 
 const TheLittlesKitchen = () => {
-  const [menuItems, setMenuItems] = useState([]);
   const [navCollapsed, setNavCollapsed] = useState(true);
-
-  useEffect(() => {
-    setMenuItems(menuData);
-  }, []);
 
   const toggleNav = () => setNavCollapsed(!navCollapsed);
 
@@ -31,7 +27,8 @@ const TheLittlesKitchen = () => {
             "url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "60vh",
+          height: "70vh",
+          paddingTop:"65px",
           position: "relative",
           color: "white",
           display: "flex",
@@ -42,6 +39,16 @@ const TheLittlesKitchen = () => {
           fontFamily: "'Playfair Display', serif",
         }}
       >
+        <img
+          src={LittleKitchenLogo} // ✅ Update path if needed
+          alt="Little Kitchen Logo"
+          className="littleKitchenLogo"
+          style={{
+            width: "350px", // adjust as needed
+            height: "auto",
+            marginBottom: "1rem",
+          }}
+        />
         <h1
           style={{
             fontSize: "3.5rem",
@@ -49,7 +56,7 @@ const TheLittlesKitchen = () => {
             marginBottom: "0.5rem",
           }}
         >
-          Welcome to The Littles Kitchen
+          Welcome to Little Kitchen
         </h1>
         <p
           style={{
@@ -77,7 +84,7 @@ const TheLittlesKitchen = () => {
               fontFamily: "'Playfair Display', serif",
             }}
           >
-            The Littles Kitchen
+            Little Kitchen
           </a>
           <button
             className="navbar-toggler"
@@ -118,7 +125,34 @@ const TheLittlesKitchen = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a
-                  href="https://www.doordash.com"
+                  href="https://order.getrevi.com/little-kitchen-1551"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav-link"
+                  style={{
+                    color: "white",
+                    fontWeight: "600",
+                    backgroundColor: "#08cfcfff",
+                    borderRadius: "6px",
+                    padding: "6px 12px",
+                    marginRight: "8px",
+                    fontFamily: "'Playfair Display', serif",
+                    transition: "background-color 0.3s ease",
+                    textAlign: "center",
+                  }}
+                  onMouseEnter={(e) =>
+                    (e.currentTarget.style.backgroundColor = "#08b6b6ff")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.currentTarget.style.backgroundColor = "#08cfcfff")
+                  }
+                >
+                  Revi
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  href="https://www.doordash.com/store/little-kitchen-baton-rouge-31685735/50714946/?srsltid=AfmBOoq_SVuuhW3ELYwoXeV4onSplTIFW9KLgAPr-mGMmMVaAI8UJPRW"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link"
@@ -149,7 +183,7 @@ const TheLittlesKitchen = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/profile.php?id=100090750182895"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link"
@@ -175,6 +209,28 @@ const TheLittlesKitchen = () => {
                     style={{ marginRight: "6px", verticalAlign: "middle" }}
                   />
                   Facebook
+                </a>
+              </li>
+              <li class-item="nav-item">
+                {/* Phone Number Button */}
+                <a
+                  href="tel:2253294678"
+                  style={{
+                    backgroundColor: "#4a3c31",
+                    color: "white",
+                    padding: "6px 12px",
+                    borderRadius: "6px",
+                    textDecoration: "none",
+                    display: "flex",
+                    alignItems: "center",
+                    marginLeft: 6,
+                  }}
+                >
+                  <i
+                    className="bi bi-telephone-fill"
+                    style={{ fontSize: "1.1rem" }}
+                  ></i>
+                  (225) 329-4678
                 </a>
               </li>
             </ul>
@@ -218,10 +274,42 @@ const TheLittlesKitchen = () => {
           </p>
 
           <div
-            style={{ display: "flex", justifyContent: "center", gap: "1rem" }}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              gap: "1rem",
+              flexWrap: "wrap",
+            }}
           >
             <a
-              href="https://www.doordash.com"
+              href="https://order.getrevi.com/little-kitchen-1551"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+              style={{
+                color: "white",
+                fontWeight: "600",
+                backgroundColor: "#08cfcfff",
+                borderRadius: "6px",
+                padding: "6px 12px",
+                marginRight: "8px",
+                fontFamily: "'Playfair Display', serif",
+                transition: "background-color 0.3s ease",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor = "#08b6b6ff")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "#08cfcfff")
+              }
+            >
+              Order on Revi
+            </a>
+            <a
+              href="https://www.doordash.com/store/little-kitchen-baton-rouge-31685735/50714946/?srsltid=AfmBOoq_SVuuhW3ELYwoXeV4onSplTIFW9KLgAPr-mGMmMVaAI8UJPRW"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -250,7 +338,7 @@ const TheLittlesKitchen = () => {
             </a>
 
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=100090750182895"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -277,74 +365,30 @@ const TheLittlesKitchen = () => {
               <FaFacebookF size={24} style={{ marginRight: "8px" }} />
               Follow on Facebook
             </a>
+            <a
+              href="tel:2253294678"
+              style={{
+                backgroundColor: "#4a3c31",
+                color: "white",
+                padding: "6px 12px",
+                borderRadius: "6px",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                marginLeft: 6,
+              }}
+            >
+              <i
+                className="bi bi-telephone-fill"
+                style={{ fontSize: "1.1rem" }}
+              ></i>
+              (225) 329-4678
+            </a>
           </div>
         </section>
 
         {/* Menu */}
-        <section id="menu" className="container py-5">
-          <h2
-            style={{
-              borderBottom: "2px solid #4a3c31",
-              paddingBottom: "0.5rem",
-              maxWidth: "200px",
-              marginBottom: "2rem",
-              fontFamily: "'Playfair Display', serif",
-              fontWeight: 700,
-            }}
-          >
-            Our Menu
-          </h2>
-          <div className="row">
-            {menuItems.map((item, idx) => (
-              <div key={idx} className="col-12 col-sm-6 col-md-4 mb-4">
-                <div
-                  style={{
-                    borderRadius: "12px",
-                    overflow: "hidden",
-                    boxShadow: "0 4px 8px rgba(74, 60, 49, 0.15)",
-                    backgroundColor: "white",
-                    height: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                  }}
-                >
-                  <div style={{ height: "200px", overflow: "hidden" }}>
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        transition: "transform 0.3s ease",
-                      }}
-                      className="menu-image"
-                    />
-                  </div>
-                  <div
-                    style={{
-                      padding: "1rem",
-                      flexGrow: 1,
-                      fontFamily: "'Georgia', serif",
-                    }}
-                  >
-                    <h5
-                      style={{
-                        color: "#4a3c31",
-                        fontFamily: "'Playfair Display', serif",
-                      }}
-                    >
-                      {item.name}
-                    </h5>
-                    <p style={{ fontSize: "0.9rem", color: "#6b5e4a" }}>
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
+        <OurMenu />
 
         {/* Location */}
         <section id="location" className="container py-5">
@@ -367,12 +411,12 @@ const TheLittlesKitchen = () => {
               fontFamily: "'Georgia', serif",
             }}
           >
-            We're located in Baton Rouge, Louisiana. Come visit us for your
-            Filipino food cravings!
+            We're located in 940 O'Neal Ln Baton Rouge, LA 70816. Come visit us
+            for your Filipino food cravings!
           </p>
           <div className="ratio ratio-16x9 shadow rounded">
             <iframe
-              src="https://www.google.com/maps?q=Baton+Rouge,+Louisiana&output=embed"
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=940%20O'Neal%20Ln%20Baton%20Rouge,%20LA%2070816+(Little%20Kitchen)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               title="Map"
               allowFullScreen
               style={{ borderRadius: "8px" }}
@@ -385,7 +429,7 @@ const TheLittlesKitchen = () => {
           id="contact"
           className="container py-5"
           style={{
-            maxWidth: "600px",
+            maxWidth: "1000px",
             margin: "0 auto",
             fontFamily: "'Georgia', serif",
             color: "#4a3c31",
@@ -430,28 +474,60 @@ const TheLittlesKitchen = () => {
                 textDecoration: "underline",
               }}
             >
-              info@thelittleskitchen.com
+              littlekitchen.mq@gmail.com
             </a>
           </p>
 
           <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
             <strong>Business Hours:</strong>
             <br />
-            Mon - Sat: 10:00 AM - 8:00 PM
+            Mon - Tue: Closed
             <br />
-            Sun: Closed
+            Wed - Fri: 3:30 PM - 7:00 PM
+            <br />
+            Sat: 11:00 AM - 6:00 PM
+            <br />
+            Sun: 11:00 AM - 2:00 PM
           </p>
 
           <div
             style={{
               display: "flex",
+              flexWrap: "wrap",
               justifyContent: "center",
-              gap: "1rem",
+              gap: "10px",
               marginBottom: "2rem",
             }}
           >
             <a
-              href="https://www.doordash.com"
+              href="https://order.getrevi.com/little-kitchen-1551"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+              style={{
+                color: "white",
+                fontWeight: "600",
+                backgroundColor: "#08cfcfff",
+                borderRadius: "6px",
+                padding: "6px 12px",
+                marginRight: "8px",
+                fontFamily: "'Playfair Display', serif",
+                transition: "background-color 0.3s ease",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.backgroundColor = "#08b6b6ff")
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.backgroundColor = "#08cfcfff")
+              }
+            >
+              Order on Revi
+            </a>
+            <a
+              href="https://www.doordash.com/store/little-kitchen-baton-rouge-31685735/50714946/?srsltid=AfmBOoq-LxJK-tqo_peaP0dmq4nbZgrIPmZRKsAr6jz0DLOLsZahhzhV"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -480,7 +556,7 @@ const TheLittlesKitchen = () => {
             </a>
 
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=100090750182895"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -507,82 +583,26 @@ const TheLittlesKitchen = () => {
               <FaFacebookF size={24} style={{ marginRight: "8px" }} />
               Follow on Facebook
             </a>
-          </div>
-
-          <form
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "1rem",
-              maxWidth: "400px",
-              margin: "0 auto",
-            }}
-            onSubmit={(e) => {
-              e.preventDefault();
-              alert(
-                "Thank you for your message! We will get back to you shortly."
-              );
-              e.target.reset();
-            }}
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              style={{
-                padding: "0.6rem",
-                borderRadius: "6px",
-                border: "1px solid #ccc",
-                fontFamily: "'Georgia', serif",
-              }}
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              style={{
-                padding: "0.6rem",
-                borderRadius: "6px",
-                border: "1px solid #ccc",
-                fontFamily: "'Georgia', serif",
-              }}
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows="4"
-              required
-              style={{
-                padding: "0.6rem",
-                borderRadius: "6px",
-                border: "1px solid #ccc",
-                fontFamily: "'Georgia', serif",
-              }}
-            />
-            <button
-              type="submit"
+            <a
+              href="tel:2253294678"
               style={{
                 backgroundColor: "#4a3c31",
                 color: "white",
-                border: "none",
-                padding: "0.75rem",
+                padding: "6px 12px",
                 borderRadius: "6px",
-                fontWeight: "600",
-                cursor: "pointer",
-                fontFamily: "'Playfair Display', serif",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                marginLeft: 6,
               }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.backgroundColor = "#3b3227")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.backgroundColor = "#4a3c31")
-              }
             >
-              Send Message
-            </button>
-          </form>
+              <i
+                className="bi bi-telephone-fill"
+                style={{ fontSize: "1.1rem" }}
+              ></i>
+              (225) 329-4678
+            </a>
+          </div>
         </section>
       </main>
 
@@ -598,7 +618,7 @@ const TheLittlesKitchen = () => {
           fontFamily: "'Georgia', serif",
         }}
       >
-        &copy; 2025 The Littles Kitchen. All rights reserved.
+        &copy; 2025 Little Kitchen. All rights reserved.
       </footer>
     </div>
   );
