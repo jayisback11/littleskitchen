@@ -27,7 +27,7 @@ const TheLittlesKitchen = () => {
             "linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80)",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "70vh",
+          overflow: "auto",
           paddingTop: "65px",
           position: "relative",
           color: "white",
